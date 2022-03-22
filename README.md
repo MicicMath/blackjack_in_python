@@ -5,7 +5,7 @@ Simple two player (player vs. dealer) blackjack in python played in terminal. Py
 Game play:
 - Rules as in blackjack.
 - Player starts. Player has credit of 500. When credit reaches 0 game ends.
-- Dealer takes cards up max. score of 17.  
+- Dealer takes cards up to max. score of 17.  
 
 Run: 
 ```bash
