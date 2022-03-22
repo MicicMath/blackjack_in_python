@@ -11,9 +11,10 @@ if __name__ == "__main__":
     print("------------------------------------------------")
 
     game_status = True
+    credit = CREDIT
 
     while game_status:
-        game = Game(CREDIT)
+        game = Game(credit)
         game.play()
         credit = game.player.credit
         if credit <= 0.0:
