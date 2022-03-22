@@ -13,9 +13,9 @@ python run_game.py
 ```
 
 All classes are in ```src``` folder. Classes defined:
-- Card class (```card.py```): define card and value of the card.
+- Card class (```card.py```): defines card and value of the card.
 - Deck class (```deck.py```): creates a deck and draws from deck.
-- Player class (```player.py```): defines a player as "player" or "dealer". Player can get cards and have score associated with the cards. 
-- Game class (```game.py```): used to create a game instance. Game logic in "play" method.
+- Player class (```player.py```): defines a player (player or dealer). Player can get cards and has score associated with the cards. 
+- Game class (```game.py```): creates a game instance. Game logic is in the "play" method.
 
 
