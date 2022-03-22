@@ -2,7 +2,15 @@
 
 Simple two player (player vs. dealer) blackjack in python played in terminal. Python 3.x required.
 
-Run: ```python run_game.py```
+Game play:
+- Rules as in blackjack.
+- Player starts. Player has credit of 500. When credit reaches 0 game ends.
+- Dealer takes cards up max. score of 17.  
+
+Run: 
+```bash
+python run_game.py
+```
 
 All classes are in src folder. Classes defined:
 - Card class (card.py): define card and value of the card.
